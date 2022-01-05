@@ -20,6 +20,12 @@ The user on the remote host must be in the group `fuse`:
 addgroup "$USER" fuse  # and reconnect the session
 ~~~
 
+## Installing
+
+```shell
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/rikhoffbauer/rsshfs/master/install.bash)"
+```
+
 ## Mount a folder
 
 `sshfs` can mount a remote folder to a local one:
